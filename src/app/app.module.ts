@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { Routes, RouterModule } from '@angular/router';
+//import { GoogleMapsModule } from '@angular/google-maps'
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 
 //Componentes
@@ -34,7 +36,9 @@ const rutas: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(rutas)
+    RouterModule.forRoot(rutas),
+    YouTubePlayerModule,
+    //GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
