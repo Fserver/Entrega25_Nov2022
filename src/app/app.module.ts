@@ -14,6 +14,7 @@ import { AcercaComponent } from './components/acerca/acerca.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { TestimoniosComponent } from './components/testimonios/testimonios.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { AsideComponent } from './components/aside/aside.component';
 
 const rutas: Routes = [
   { path: 'inicio', component: InicioComponent,  pathMatch: 'full'},
@@ -32,7 +33,8 @@ const rutas: Routes = [
     AcercaComponent,
     ServiciosComponent,
     TestimoniosComponent,
-    ContactoComponent
+    ContactoComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,
