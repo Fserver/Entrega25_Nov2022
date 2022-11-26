@@ -1,19 +1,25 @@
 <h1>Mapa y formulario para pedidos</h1>
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
-
-<script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2yqlwdChXo4YS3exhBOgmslPbyn5JYTo&callback=initMap">
-    </script>
-
-
-
-
-
-
+<div class="row my-5">
+    <div class="col">
+        <!-- 
 <div id="map"></div>
 
 <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-    defer></script>
+    defer></script> -->
+
+    </div>
+    <div class="col">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Ingrese su Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Déjanos tu solicitud</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</div>
